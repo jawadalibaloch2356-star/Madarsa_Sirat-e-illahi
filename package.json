@@ -1,11 +1,11 @@
 {
-  "name": "madarsa-al-hikmah",
+  "name": "madarsa-sirat-e-illahi",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "lint": "vite build",
     "preview": "vite preview"
   },
